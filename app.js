@@ -21,7 +21,7 @@ let date = currentDate.getDate();
 let hr = currentDate.getHours();
 let min = currentDate.getMinutes();
 let sec = currentDate.getSeconds();
-let sec60Date = new Date(year, month, date, hr, min, sec+3);
+let sec60Date = new Date(year, month, date, hr, min, sec+60);
 // console.log(currentDate);
 // console.log(sec60Date);
 function sixtySecs(){
