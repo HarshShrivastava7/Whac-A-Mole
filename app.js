@@ -104,7 +104,7 @@ function sixtySecs(){
           document.querySelector(".highscores5").classList.remove("highscores5");
         }
       })
-    },1000);
+    },2500);
     clearInterval(remainingTime);
     clearInterval(photoChangeInterval);
     btn.forEach(function(e){
